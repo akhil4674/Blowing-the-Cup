@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Akhil Kumar</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Akhil Kumar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Akhil Kumar</copyright>
+    <lastBuildDate>Sat, 30 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Actor-Critic Method  🕴</title>
+      <link>http://localhost:1313/projects/1732997246398-actor-critic-method--/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/1732997246398-actor-critic-method--/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/1732997246398-actor-critic-method--/featured.png" />
+    </item>
+    
+    <item>
+      <title>Diffusion Based Imitation Learning 🦌</title>
+      <link>http://localhost:1313/projects/1732973972627-diffusion-based-imitation-learning-/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/1732973972627-diffusion-based-imitation-learning-/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/1732973972627-diffusion-based-imitation-learning-/featured.png" />
+    </item>
+    
+    <item>
+      <title>Imitation Learning 🧏🏻‍</title>
+      <link>http://localhost:1313/projects/1732999247436-imitation-learning-/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/1732999247436-imitation-learning-/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/1732999247436-imitation-learning-/featured.png" />
+    </item>
+    
+    <item>
+      <title>Analog Optical Computing , Ever Heard of it ? ⚡️</title>
+      <link>http://localhost:1313/projects/1732924668126-analog-optical-computing--ever-heard-of-it--%EF%B8%8F/</link>
+      <pubDate>Fri, 29 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/1732924668126-analog-optical-computing--ever-heard-of-it--%EF%B8%8F/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/1732924668126-analog-optical-computing--ever-heard-of-it--%EF%B8%8F/featured.png" />
+    </item>
+    
+    <item>
+      <title>Do you know about Diffusion based Imitation Learning </title>
+      <link>http://localhost:1313/imitation-learning-/1732917446940-do-you-know-about-diffusion-based-imitation-learning-/</link>
+      <pubDate>Fri, 29 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/imitation-learning-/1732917446940-do-you-know-about-diffusion-based-imitation-learning-/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/imitation-learning-/1732917446940-do-you-know-about-diffusion-based-imitation-learning-/featured.png" />
+    </item>
+    
+    <item>
+      <title>Get to Know/ Kennlernen 👀</title>
+      <link>http://localhost:1313/about-me/1732923295861-sooo..-what-do-you-want-to-know--/</link>
+      <pubDate>Fri, 29 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about-me/1732923295861-sooo..-what-do-you-want-to-know--/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/about-me/1732923295861-sooo..-what-do-you-want-to-know--/featured.png" />
+    </item>
+    
+    <item>
+      <title>My Interests about Proximal Policy Optimization (PPO) ✅ </title>
+      <link>http://localhost:1313/projects/1732918143002-my-interests-about-proximal-policy-optimization-ppo-/</link>
+      <pubDate>Fri, 29 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/1732918143002-my-interests-about-proximal-policy-optimization-ppo-/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/1732918143002-my-interests-about-proximal-policy-optimization-ppo-/featured.png" />
+    </item>
+    
+    <item>
+      <title>Policy-Search Algorithms 🧠 </title>
+      <link>http://localhost:1313/projects/1732916517379-policy-search-algorithms--/</link>
+      <pubDate>Fri, 29 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/1732916517379-policy-search-algorithms--/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/1732916517379-policy-search-algorithms--/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

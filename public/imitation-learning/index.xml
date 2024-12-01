@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Imitation Learnings on Akhil Kumar</title>
+    <link>http://localhost:1313/imitation-learning/</link>
+    <description>Recent content in Imitation Learnings on Akhil Kumar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Akhil Kumar</copyright>
+    <lastBuildDate>Fri, 29 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/imitation-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title> Diffusion-based Imitation Learning (DIL), which combines ideas from generative diffusion models and imitation learning. This is not a full implementation but a conceptual framework that captures the essential components.</title>
+      <link>http://localhost:1313/imitation-learning/1732916715969--diffusion-based-imitation-learning-dil-which-combines-ideas-from-generative-diffusion-models-and-imitation-learning.-this-is-not-a-full-implementation-but-a-conceptual-framework-that-captures-the-essential-components./</link>
+      <pubDate>Fri, 29 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/imitation-learning/1732916715969--diffusion-based-imitation-learning-dil-which-combines-ideas-from-generative-diffusion-models-and-imitation-learning.-this-is-not-a-full-implementation-but-a-conceptual-framework-that-captures-the-essential-components./</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/imitation-learning/1732916715969--diffusion-based-imitation-learning-dil-which-combines-ideas-from-generative-diffusion-models-and-imitation-learning.-this-is-not-a-full-implementation-but-a-conceptual-framework-that-captures-the-essential-components./featured.png" />
+    </item>
+    
+    <item>
+      <title>What do you think about Mimicing 🙊  ? - Imitaion Learning</title>
+      <link>http://localhost:1313/imitation-learning/1732916661617-what-do-you-think-about-mimicing------imitaion-learning/</link>
+      <pubDate>Fri, 29 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/imitation-learning/1732916661617-what-do-you-think-about-mimicing------imitaion-learning/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/imitation-learning/1732916661617-what-do-you-think-about-mimicing------imitaion-learning/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

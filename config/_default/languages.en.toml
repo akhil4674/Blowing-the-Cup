@@ -1,0 +1,20 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Akhil Kumar"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+dateFormat = "2 January 2006"
+secondaryLogo = "DSC00981.JPG "
+author = { image = "DSC00981.JPG", name = "Akhil Kumar" }
+description = " Just a Machine learning Engineer"
+
+
+[author]
+name = "Akhil Kumar"
+headline = "I am just a Human"
+bio = "Machine Learning Enthusiast"
