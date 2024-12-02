@@ -6,7 +6,6 @@ description: "a description"
 tags: ["example", "tag"]
 ---
 
-# Gaussian Mixture Models (GMM)  🌟
 
 ### **Understanding Gaussian Mixture Models (GMM)**  
 #### **What is a GMM?** 📚
@@ -48,4 +47,18 @@ tags: ["example", "tag"]
 - **Visualize Cluster Assignments and Probabilities**  
 - **Analyze Covariance Matrices:** Understand feature correlations within each cluster.
 
+{{< figure
+    src="cap.png"
+    alt="Abstract purple artwork"
+    caption="Research by [Viz](https://tonyelhabr.rbind.io/posts/dimensionality-reduction-and-clustering/)"
+    >}}
 
+<!-- OR -->
+
+
+
+
+
+
+
+Checkout More Work by Viz : https://tonyelhabr.rbind.io/posts/dimensionality-reduction-and-clustering/
