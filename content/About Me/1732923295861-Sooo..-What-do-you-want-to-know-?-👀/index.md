@@ -100,3 +100,14 @@ Analog Electronics ? Studied for 5 years 🏫
 {{< /typeit >}}
 
 {{< /alert >}}
+
+
+
+
+{{< figure
+    src="cap.png"
+    alt="Abstract purple artwork"
+    caption="Master Thesis done by [Me (Akhil Kumar)](https://www.ijser.org/onlineResearchPaperViewer.aspx?Reduction_in_Power_of_Logic_Circuits_using_Device_Stacking_and_Virtual_Power_Rails.pdf)"
+    >}}
+
+
