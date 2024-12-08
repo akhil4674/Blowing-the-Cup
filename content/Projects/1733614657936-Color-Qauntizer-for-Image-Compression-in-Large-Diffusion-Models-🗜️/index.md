@@ -12,14 +12,6 @@ tags: ["example", "tag"]
 
 "Dramatic Color Reduction with PyTorch Color Quantizer Processed on Apple Neural Engine ANE"
 
-### Table of Contents
-+ What is Color Quantization? 🖍️
-+ Implementing a Color Quantizer with PyTorch
-+ Putting it into Action
-+ Conclusion
-+ Stay Tuned 😉
-+ Color Quantization reduces an image's color palette to a specified number of representative colors. 
-
 #### Key Purposes
 + **Image Compression**: Reduced file size for easier storage or transmission.
 + **Artistic Effects**: Unique, stylized looks reminiscent of retro graphics or artistic interpretations.
