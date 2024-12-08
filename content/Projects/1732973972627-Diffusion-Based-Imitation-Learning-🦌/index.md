@@ -8,7 +8,7 @@ image : "/Users/akhilkumar/Documents/MIT_cpr/blowfish/content/Projects/173297397
 ---
 
 
-## Diffusion-based Imitation Learning (DIL)
+
 
 
 # Diffusion-based Imitation Learning (DIL): A New Era in Reinforcement Learning
