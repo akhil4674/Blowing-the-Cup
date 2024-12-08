@@ -108,7 +108,7 @@
     "keywords": ["Wafer Fab","Imitation Learning"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "297"
+    "wordCount": "323"
   }]
   </script>
 
@@ -572,7 +572,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <span>297 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
+  <span>323 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
   
 
   
@@ -662,31 +662,61 @@ Wafer Fab
   </span>
 </span>
  
-    <div id="imitation-learning--hahahugoshortcode8s0hbhb" class="anchor"></div>
+    <div id="imitation-learning--hahahugoshortcode35s0hbhb" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#imitation-learning--hahahugoshortcode8s0hbhb" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#imitation-learning--hahahugoshortcode35s0hbhb" aria-label="Anchor">#</a>
     </span>        
     
 </h2>
 <p>In this Notebook is a demo for the imitation learning that learns the pattern to mark some cells &lsquo;x&rsquo; for a semiconductor Wafer dataset , and then mimic the the pattern of the agent to an unseen dataset</p>
 <p>The <code>ImitationLearningCSV</code> class is a versatile tool for human-in-the-loop machine learning. It enables users to interact with a CSV file, marking and unmarking specific cells. These human-provided annotations serve as valuable training data for a machine learning model. By learning from these expert-provided labels, the model can acquire the ability to predict future markings on similar data.</p>
+
+<figure>
+        <img
+          class="my-0 rounded-md"
+          srcset="
+          /projects/1732999247436-imitation-learning-/heatmap_hu18089809698254307641.png 330w,
+          /projects/1732999247436-imitation-learning-/heatmap_hu1316192689961310194.png 660w,
+          /projects/1732999247436-imitation-learning-/heatmap_hu14814004802873978397.png 1024w,
+          /projects/1732999247436-imitation-learning-/heatmap_hu14322167302629903720.png 2x"
+          src="/projects/1732999247436-imitation-learning-/heatmap_hu1316192689961310194.png"
+          alt="Abstract purple artwork"
+        />
+  <figcaption>Heatmap depicting the accuracy of the Imitaion learning algo , ran over the dataset.</figcaption>
+  
+  </figure>
 <p>The class streamlines this process by:</p>
 <ol>
 <li><strong>Loading Data:</strong> The <code>load_existing_data</code> method seamlessly reads the CSV file into a structured format, making it accessible for further analysis.</li>
 <li><strong>Marking and Unmarking:</strong> The <code>mark_cell</code> and <code>unmark_cell</code> methods allow users to easily designate cells as important or unimportant, providing explicit guidance to the model.</li>
 <li><strong>Feature Extraction:</strong> The <code>extract_features</code> method extracts relevant features from the marked cells, transforming them into a numerical representation that the machine learning model can understand.</li>
-<li><strong>Data Preparation:</strong> The class prepares the extracted features and corresponding labels into a suitable format for training a machine learning model.</li>
+<li><strong>Data Preparation:</strong> The class prepares the extracted features and corresponding labels into a suitable format for training a machine learning model.
+
+<figure>
+        <img
+          class="my-0 rounded-md"
+          srcset="
+          /projects/1732999247436-imitation-learning-/accuracy_hu4782398966151467500.png 330w,
+          /projects/1732999247436-imitation-learning-/accuracy_hu3821416500036443813.png 660w,
+          /projects/1732999247436-imitation-learning-/accuracy_hu1466401924958946275.png 1024w,
+          /projects/1732999247436-imitation-learning-/accuracy_hu15147915285831591520.png 2x"
+          src="/projects/1732999247436-imitation-learning-/accuracy_hu3821416500036443813.png"
+          alt="Abstract purple artwork"
+        />
+  <figcaption>Progress in the Model&rsquo;s Accuracy , over increamental iterations in learning .</figcaption>
+  
+  </figure>
+By automating these steps, the <code>ImitationLearningCSV</code> class significantly simplifies the process of building imitation learning models, making it more accessible to a wider range of users.</li>
 </ol>
-<p>By automating these steps, the <code>ImitationLearningCSV</code> class significantly simplifies the process of building imitation learning models, making it more accessible to a wider range of users.</p>
 <p>The data is related to MFCs  from the Semiconductor Manufacturing tools , and the Lalels for the Aliases are to be Marked by the Agent,</p>
 <div class="lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl">
   Check out the sample code on git. 👇🏻
 </div>
 
-<a id="github-15b854fed7fa2e1db9444d48a607bd0a" target="_blank" href="https://github.com/akhil4674/Imitation-Learning" class="cursor-pointer">
+<a id="github-7b1fd87477c56ac7c4768be4ac405840" target="_blank" href="https://github.com/akhil4674/Imitation-Learning" class="cursor-pointer">
   <div
     class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md shadow-2xl">
 
@@ -702,13 +732,13 @@ Wafer Fab
 
       </span>
       <div
-        id="github-15b854fed7fa2e1db9444d48a607bd0a-full_name"
+        id="github-7b1fd87477c56ac7c4768be4ac405840-full_name"
         class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
         akhil4674/Imitation-Learning
       </div>
     </div>
 
-    <p id="github-15b854fed7fa2e1db9444d48a607bd0a-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+    <p id="github-7b1fd87477c56ac7c4768be4ac405840-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
       In this Notebook is a demo for the imitation learning that learns the pattern to mark some cells &lsquo;x&rsquo;  for a semiconductor Wafer dataset , and then mimic the the pattern of the agent to an unseen dataset
     </p>
 
@@ -729,7 +759,7 @@ Wafer Fab
 
 
       </span>
-      <div id="github-15b854fed7fa2e1db9444d48a607bd0a-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+      <div id="github-7b1fd87477c56ac7c4768be4ac405840-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
         0
       </div>
 
@@ -742,7 +772,7 @@ Wafer Fab
 
 
       </span>
-      <div id="github-15b854fed7fa2e1db9444d48a607bd0a-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+      <div id="github-7b1fd87477c56ac7c4768be4ac405840-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
         0
       </div>
 
@@ -757,10 +787,10 @@ Wafer Fab
     })
       .then(response => response.json())
       .then(data => {
-        document.getElementById('github-15b854fed7fa2e1db9444d48a607bd0a-full_name').innerHTML = data.full_name;
-        document.getElementById('github-15b854fed7fa2e1db9444d48a607bd0a-description').innerHTML = data.description;
-        document.getElementById('github-15b854fed7fa2e1db9444d48a607bd0a-stargazers').innerHTML = data.stargazers_count;
-        document.getElementById('github-15b854fed7fa2e1db9444d48a607bd0a-forks').innerHTML = data.forks;
+        document.getElementById('github-7b1fd87477c56ac7c4768be4ac405840-full_name').innerHTML = data.full_name;
+        document.getElementById('github-7b1fd87477c56ac7c4768be4ac405840-description').innerHTML = data.description;
+        document.getElementById('github-7b1fd87477c56ac7c4768be4ac405840-stargazers').innerHTML = data.stargazers_count;
+        document.getElementById('github-7b1fd87477c56ac7c4768be4ac405840-forks').innerHTML = data.forks;
       })
       .catch(error => console.error(error))
   </script>
