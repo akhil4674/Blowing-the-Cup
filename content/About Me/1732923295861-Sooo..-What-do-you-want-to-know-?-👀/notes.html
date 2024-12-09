@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Protected Note-Taking App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+        }
+
+        #auth-container {
+            width: 100%;
+            max-width: 400px;
+            margin: 100px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2, h3 {
+            text-align: center;
+        }
+
+        input, textarea, button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        #note-container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        #notes {
+            margin-top: 20px;
+        }
+
+        .note {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <!-- Authentication and Note-Taking UI -->
+    <div id="auth-container">
+        <div id="login-form">
+            <h2>Login</h2>
+            <input type="text" id="login-username" placeholder="Username" required>
+            <input type="password" id="login-password" placeholder="Password" required>
+            <button onclick="login()">Login</button>
+            <p>Don't have an account? <span onclick="toggleForms()">Sign up</span></p>
+        </div>
+
+        <div id="signup-form" style="display: none;">
+            <h2>Sign Up</h2>
+            <input type="text" id="signup-username" placeholder="Username" required>
+            <input type="password" id="signup-password" placeholder="Password" required>
+            <button onclick="signup()">Sign Up</button>
+            <p>Already have an account? <span onclick="toggleForms()">Login</span></p>
+        </div>
+    </div>
+
+    <div id="note-container" style="display: none;">
+        <button onclick="logout()">Logout</button>
+        <h2>Your Notes</h2>
+        <div id="notes"></div>
+
+        <h3>Create a New Note</h3>
+        <input type="text" id="note-title" placeholder="Note Title">
+        <textarea id="note-content" placeholder="Write your note here"></textarea>
+        <button onclick="createNote()">Create Note</button>
+    </div>
+
+    <script>
+        // Hardcoded username and password
+        const HARDCODED_USERNAME = "akhil";
+        const HARDCODED_PASSWORD = "akhil";
+
+        // Store logged-in state
+        let loggedInUser = null;
+
+        // Toggle between login and signup forms
+        function toggleForms() {
+            const loginForm = document.getElementById('login-form');
+            const signupForm = document.getElementById('signup-form');
+            loginForm.style.display = loginForm.style.display === 'none' ? 'block' : 'none';
+            signupForm.style.display = signupForm.style.display === 'none' ? 'block' : 'none';
+        }
+
+        // Handle login with hardcoded credentials
+        function login() {
+            const username = document.getElementById('login-username').value;
+            const password = document.getElementById('login-password').value;
+
+            if (username === HARDCODED_USERNAME && password === HARDCODED_PASSWORD) {
+                loggedInUser = username;
+                console.log('Logged in as:', loggedInUser);
+                document.getElementById('auth-container').style.display = 'none';
+                document.getElementById('note-container').style.display = 'block';
+                loadNotes();
+            } else {
+                alert('Invalid username or password!');
+            }
+        }
+
+        // Handle sign up (no actual backend, just a placeholder)
+        function signup() {
+            const username = document.getElementById('signup-username').value;
+            const password = document.getElementById('signup-password').value;
+
+            // Here you can validate the sign-up fields, but for now, we're just simulating a sign-up.
+            if (username && password) {
+                loggedInUser = username;
+                alert('Signed up successfully!');
+                document.getElementById('signup-form').style.display = 'none';
+                document.getElementById('note-container').style.display = 'block';
+                loadNotes();
+            } else {
+                alert('Please provide both a username and password.');
+            }
+        }
+
+        // Handle logout
+        function logout() {
+            loggedInUser = null;
+            document.getElementById('auth-container').style.display = 'block';
+            document.getElementById('note-container').style.display = 'none';
+        }
+
+        // Create a new note
+        function createNote() {
+            const title = document.getElementById('note-title').value;
+            const content = document.getElementById('note-content').value;
+
+            if (!title || !content) {
+                alert('Please fill out both the title and content of the note!');
+                return;
+            }
+
+            // Simulate saving note
+            const note = { title, content, createdAt: new Date() };
+            let notes = JSON.parse(localStorage.getItem('notes')) || [];
+            notes.push(note);
+            localStorage.setItem('notes', JSON.stringify(notes));
+
+            alert('Note created!');
+            loadNotes();
+        }
+
+        // Load notes from localStorage
+        function loadNotes() {
+            const notes = JSON.parse(localStorage.getItem('notes')) || [];
+            const notesContainer = document.getElementById('notes');
+            notesContainer.innerHTML = ''; // Clear existing notes
+            notes.forEach(note => {
+                const noteDiv = document.createElement('div');
+                noteDiv.classList.add('note');
+                noteDiv.innerHTML = `<h4>${note.title}</h4><p>${note.content}</p><small>Created on: ${new Date(note.createdAt).toLocaleString()}</small>`;
+                notesContainer.appendChild(noteDiv);
+            });
+        }
+
+        // On page load, check if the user is logged in
+        window.onload = function() {
+            if (loggedInUser) {
+                document.getElementById('auth-container').style.display = 'none';
+                document.getElementById('note-container').style.display = 'block';
+                loadNotes();
+            }
+        };
+    </script>
+</body>
+</html>

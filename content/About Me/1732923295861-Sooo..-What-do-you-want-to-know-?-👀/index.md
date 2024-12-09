@@ -6,6 +6,7 @@ description: "a description"
 tags: ["example", "tag"]
 ---
 
+
 {{< timeline >}}
 
 {{< timelineItem icon="graduation-cap" header="About Me 🏎️" badge="" subheader="" >}}
@@ -100,10 +101,10 @@ Analog Electronics ? Studied for 5 years 🏫
 {{< /typeit >}}
 
 {{< /alert >}}
+{{< alert icon="hot-mug" iconColor="#1d3557" >}} 
+secure
 
-
-
-
+{{< /alert >}}
 {{< figure
     src="cap.png"
     alt="Abstract purple artwork"
@@ -111,3 +112,6 @@ Analog Electronics ? Studied for 5 years 🏫
     >}}
 
 
+{{< button href="[/notes.html](https://secured-notes-server.vercel.app/)" target="_self" >}}
+Secured Notes
+{{< /button >}}
