@@ -101,10 +101,9 @@ Analog Electronics ? Studied for 5 years 🏫
 {{< /typeit >}}
 
 {{< /alert >}}
-{{< alert icon="hot-mug" iconColor="#1d3557" >}} 
-secure
 
-{{< /alert >}}
+
+
 {{< figure
     src="cap.png"
     alt="Abstract purple artwork"
@@ -112,6 +111,7 @@ secure
     >}}
 
 
-{{< button href="[/notes.html](https://secured-notes-server.vercel.app/)" target="_self" >}}
-Secured Notes
+
+{{< button href="https://secured-notes-server.vercel.app/" target="https://secured-notes-server.vercel.app/" >}}
+Secured Login
 {{< /button >}}
