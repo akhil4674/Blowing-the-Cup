@@ -47,7 +47,7 @@ In my Integrated Bachelors and Masters degree , which was of 5 years combined , 
 
   </li>
   <li>
-At  Bosch Semiconductor Plant, whee I use the Data Analytics to monitor and control the Manufacturing Processes bringing the production quality till 3 sigma Value using Machine-learning Methods like Policy Optimization.</li>
+At  Bosch Semiconductor Plant, whee I use the Data Analytics to monitor and control the Manufacturing Processes bringing the production quality till 3 sigma Value using Optimization Methods</li>
 </ul>
 
 {{< /timelineItem >}}
