@@ -43,7 +43,7 @@ In my Integrated Bachelors and Masters degree , which was of 5 years combined , 
 
 {{< timelineItem icon="mug-hot" header="Work Experience 👨🏻‍💻 " badge="Robert Bosch GmbH " subheader="Intern" >}}
 <ul>
-<li>I’m working with semiconductor with focus in MEMS technology. I currently work at Bosch Semiconductor WaferFab,🤖 where I’m in charge of monitoring and building processes strategies for CVD, PECVD, and SACVD tools from AMAT. These tools are  important for producing MEMS gyroscopes and accelerometers. I’ve got a deep understanding of how these processes work, how the tools works, and the whole workflow in a wafer fab.
+<li>I’m working with semiconductor Manufacturing Tools with focus in MEMS and SiC technology. I currently work at Bosch Semiconductor WaferFab,🤖 where I deal with monitoring and building processes strategies for CVD, PECVD, and SACVD tools from AMAT. These tools are  important for producing MEMS gyroscopes and accelerometers. I’ve got a deep understanding of how these processes work, how the tools works, and the whole workflow in a wafer fab.
 
   </li>
   <li>
