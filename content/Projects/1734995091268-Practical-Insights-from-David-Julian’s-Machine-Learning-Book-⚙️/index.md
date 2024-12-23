@@ -44,3 +44,9 @@ I appreciated the section on ethics and fairness in AI. It’s easy to get lost 
 ## Why This Book Stands Out for Me 🛠️
 
 What I loved most about this book is how practical it is. It’s not just about theories or fancy algorithms; it’s about how to make machine learning work in the real world. For someone like me who’s always thinking about bridging the gap between academic concepts and real-world applications, this book was perfect.✅
+
+### Implementation 🔄
+
+	+ I also tried something new with the existing class function for the 
+    neural lnetwork , you can check the script, I pushed it on the existing
+    repo : https://github.com/akhil4674/Proximal-Policy-Optimization
