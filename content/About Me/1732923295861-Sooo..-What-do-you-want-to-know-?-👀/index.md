@@ -11,7 +11,7 @@ tags: ["example", "tag"]
 
 {{< timelineItem icon="graduation-cap" header="About Me 🏎️" badge="" subheader="" >}}
 
-My name is Akhil, and I’m currently an intern at Bosch in Semiconductor Fab, Process Engineering . I am currently pursuing my ** Master's degree in Sensor Systems Technology ** at Karlsruhe University of Applied Sciences. I come from electronics engineering background , I work with Machine Learning fusioned with Semiconductor World 🥽 .
+My name is Akhil, and I’m currently interning  at Bosch in Semiconductor Fab, Process Engineering . I am currently pursuing my **Master's degree in Sensor Systems Technology** at Karlsruhe University of Applied Sciences. I come from electronics engineering background , I work with Machine Learning fusioned with Semiconductor World 🥽 .
 
 
 {{< alert icon="fire"  iconColor="#1d3557" >}}
@@ -109,6 +109,8 @@ Analog Electronics ? Studied for 5 years 🏫
     alt="Abstract purple artwork"
     caption="Master Thesis done by [Me (Akhil Kumar)](https://www.ijser.org/onlineResearchPaperViewer.aspx?Reduction_in_Power_of_Logic_Circuits_using_Device_Stacking_and_Virtual_Power_Rails.pdf)"
     >}}
+
+
 
 
 
